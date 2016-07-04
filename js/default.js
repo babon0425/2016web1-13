@@ -9,7 +9,7 @@ var separate_time = function(time){
 var now = new Date();
 var target = new Date(2020,7,24,0,0,0,0);
 var diff = target.getTime() - now.getTime();
-var counter = saparate_time(now);
+var counter = saparate_time(diff);
 document.getElementById('countdown').textContent = 
 '東京オリンピックまであと' + 
  counter[3] + '日' +
